@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Web Assignment 0</title>
+  <meta name="description" content="First web assignment">
+  <meta name="author" content="Bendrix Bailey">
+  <style>
+      body{
+          font-family: 'Segoe UI'
+      }
+  </style> 
+  <script>
+      function updateText(){
+            dropdown = document.getElementById('fonts').value;
+            document.getElementById('sampletextarea').value = dropdown;
+      }
+  </script>   
+</head>
+<body>
+    <h1 style="font-family:Verdana; font-size:36px; text-align:center;">
+        <b>SWEN-344 Web Assignment 0</b>
+    </h1>
+    <h2 style="font-family: Impact; text-align: center;">
+        Section 3
+    </h2>
+    <div style="padding: 20px; align-self: center; margin: auto; width: 50%; height: 200px; outline: 1px dotted green;">
+        <div style="outline: 1px dotted blue; display: inline-block;">
+            <select name="fonts" id="fonts" onchange="updateText()">
+                <option value='blank'></option>
+                <option value="Verdana">Verdana</option>
+                <option value="Arial">Arial</option>
+                <option value="Times">Times</option>
+                <option value="Gothic">Gothic</option>
+                <option value="Impact">Impact</option>
+            </select>
+        </div>
+        <div style="padding: 20px; float: right; outline: 1px dotted blue;">
+            <label style="display: block;"><input type="radio" name="radgroup" value="Black">Black</label>
+            <label style="display: block;"><input type="radio" name="radgroup" value="Red">Red</label>
+            <label style="display: block;"><input type="radio" name="radgroup" value="Green">Green</label>
+            <label style="display: block;"><input type="radio" name="radgroup" value="Blue">Blue</label>
+            <label style="display: block;"><input type="radio" name="radgroup" value="Purple">Purple</label>
+        </div>
+    </div>
+    <div style="padding: 20px; align-self: center; margin: auto; width: 50%; outline: 1px dotted red;">
+        <textarea id="sampletextarea" name="text" rows="2" cols="50">
+            Enter some text here...
+        </textarea>
+    </div>
+</body>
+</html>

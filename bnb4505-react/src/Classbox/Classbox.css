@@ -1,0 +1,36 @@
+.classbox {
+    height: fit-content;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-content: center;
+    width: 210px;
+    padding: 0px;
+    border-radius: 5px;
+    margin: 0px;
+    color: black;
+}
+
+.class-name {
+    font-family: Verdana;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.class-desc {
+    font-family: Verdana;
+    color: black;
+    margin: 5px;
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+.class-count {
+    font-family: Verdana;
+    color:black;
+}
+
+.lg-button {
+    font-size: 20px;
+}

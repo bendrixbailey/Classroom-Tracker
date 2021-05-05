@@ -1,0 +1,106 @@
+:root{
+    --orange: #FEB062;
+    --grey: #575151;
+    --dgrey: #2B2B2B;
+    --black: #131313;
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 36px;
+    text-align: center;
+    color: var(--orange);
+}
+
+.classname {
+    font-family: Verdana;
+    text-align: center;
+    margin-top: 70px;
+    color: black;
+}
+
+h3 {
+    font-family: Verdana;
+    text-align: center;
+    color: var(--orange);
+}
+
+
+body {
+    font-family: Verdana;
+    background-color: var(--black);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    color: black;
+}
+
+.flex-container > div {
+    height: 200px;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-content: center;
+    width: 150px;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: #d3d3d3;
+    color: black;
+}
+
+.room-counter {
+    display: flex;
+    justify-content: center;
+    background-color: var(--dgrey);
+}
+
+.room-counter > div {
+    height: 20px;
+    text-align: center;
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: var(--orange);
+}
+
+.classroom-container {
+    background-color: var(--dgrey);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.radio-holder {
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.radio-selector {
+    display: block;
+    margin: auto;
+    color: var(--orange);
+}
+
+.button-container {
+    display: block;
+    text-align: center;
+    align-content: center;
+}
+
+.button{
+    background-color: var(--grey);
+    color: var(--orange);
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.addoutline {
+    outline: 1px dotted white;
+}   

@@ -1,0 +1,62 @@
+:root{
+  --orange: #FEB062;
+  --grey: #575151;
+  --dgrey: #2B2B2B;
+  --black: #131313;
+}
+
+.body {
+  padding: 30px;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: Verdana;
+  font-size: 36px;
+  text-align: center;
+  color: var(--orange);
+}
+
+h3 {
+  font-family: Verdana;
+  text-align: center;
+  color: var(--orange);
+}
+
+.class-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #131313;
+}
+
+.form-buttons{
+  margin-top: 20px;
+}
+
+.center-items{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-label{
+  margin: 10px;
+  color: #FEB062;
+}
+
+.form-input{
+  max-width: 150px;
+  align-self: center;
+}
+
+.butt-col{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+

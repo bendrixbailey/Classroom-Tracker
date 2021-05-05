@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Web Assignment 1</title>
+  <meta name="description" content="Client 1 Assignment">
+  <meta name="author" content="Bendrix Bailey"> 
+  <link rel='stylesheet' type='text/css' href='../resources/classroom.css'>
+  <script src="../resources/classroom.js"></script>
+</head>
+<body>
+    <h1>
+        <b>COVID Classroom Capacity</b>
+    </h1>
+    <h3>
+        Each time someone enters/leaves the classroom, select the room and click on the appropriate button.
+    </h3>
+    <div id="main_box" class="main-box">
+        <div class="classroom-container" id="classroomcontainer">
+            <div class="flex-container">
+                <div id="b1">
+                    <h3 class="classname">Classroom-1</h3>
+                    <h5 id="class-desc1"></h5>
+                </div>
+                <div id="b2">
+                    <h3 class="classname">Classroom-2</h3>
+                    <h5 id="class-desc2"></h5>
+                </div>
+                <div id="b3">
+                    <h3 class="classname">Classroom-3</h3>
+                    <h5 id="class-desc3"></h5>
+                </div>
+                <div id="b4">
+                    <h3 class="classname">Classroom-4</h3>
+                    <h5 id="class-desc4"></h5>
+                </div>
+            </div>
+            <div class="room-counter">
+                <div id="c1">0</div>
+                <div id="c2">0</div>
+                <div id="c3">0</div>
+                <div id="c4">0</div>
+            </div>
+        </div>
+        <div class="radio-holder" id="radbutholder">
+            <label class="radio-selector"><input type="radio" name="roomselect" value="Room 1" id="r1">Room 1</label>
+            <label class="radio-selector"><input type="radio" name="roomselect" value="Room 2" id="r2">Room 2</label>
+            <label class="radio-selector"><input type="radio" name="roomselect" value="Room 3" id="r3">Room 3</label>
+            <label class="radio-selector"><input type="radio" name="roomselect" value="Room 4" id="r4">Room 4</label>
+        </div>
+        <div class="button-container" id="bottom-button-holder">
+            <button type="button" class="button" onclick="addStudent()">+</button>
+            <button type="button" class="button" onclick="removeStudent()">-</button>
+        </div>
+    </div>
+</body>
+</html>
